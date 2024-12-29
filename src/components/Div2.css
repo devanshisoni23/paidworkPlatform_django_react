@@ -1,0 +1,42 @@
+.section-with-image{
+    text-align: center;
+    padding: 32px;
+    background-color: #f4f4f4;
+}
+.section-heading {
+    margin-bottom: 16px;
+    font-size: 32px; 
+    color: #36378b; 
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px; 
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+  }
+  
+  .text-content {
+    flex: 1; 
+    text-align: left; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .text-content {
+      text-align: center;
+      margin-top: 16px;
+    }
+  }
